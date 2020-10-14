@@ -306,9 +306,9 @@ end
 
 def big_shoe_rebounds
   
-  largest_shoe = nil 
+  largest_shoe_rebounds = nil 
   
-  iteration_index = nil 
+  #iteration_index = nil 
   
   game_hash
   
@@ -321,17 +321,17 @@ def big_shoe_rebounds
       
       if player_stats[:shoe] > largest_shoe
         
-        largest_shoe = player_stats[:shoe]
+        largest_shoe_rebounds = player_stats[:rebounds]
         
         
         
-        iteration_index = player_stats.iteration_index
+        #iteration_index = player_stats.iteration_index
         
         
       end
       
     #game_hash[location_key][:players][iteration_index][:rebounds]
-      
+    largest_shoe_rebounds  
     end
     
   end
