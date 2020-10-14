@@ -325,7 +325,7 @@ def big_shoe_rebounds
         
         
         
-        #iteration_index = player_stats
+        iteration_index = player_stats.iteration_index
         
         
       end
