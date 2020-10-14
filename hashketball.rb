@@ -316,8 +316,6 @@ def big_shoe_rebounds
     
     game_hash[location_key][:players].each do | player_stats|
       
-      #binding.pry
-      
       
       if player_stats[:shoe] > largest_shoe
         
@@ -326,14 +324,10 @@ def big_shoe_rebounds
         rebounds = player_stats[:rebounds]
         
         
-        
-        #iteration_index = player_stats.iteration_index
-        
-        
       end
       
-    #game_hash[location_key][:players][iteration_index][:rebounds]
     rebounds  
+    
     end
     
   end
