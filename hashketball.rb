@@ -306,9 +306,9 @@ end
 
 def big_shoe_rebounds
   
-  largest_shoe = nil 
+  largest_shoe = 0 
   
-  rebounds = nil 
+  rebounds = 0 
   
   game_hash
   
