@@ -308,6 +308,8 @@ def big_shoe_rebounds
   
   largest_shoe = nil 
   
+  iteration_index = nil 
+  
   game_hash
   
   game_hash.each do |location_key, location_value|
@@ -320,12 +322,18 @@ def big_shoe_rebounds
         
         largest_shoe = player_stats[:shoe]
         
+        iteration_index = player_stats
+        
         
       end
+      
+    game_hash[location_key][:players][]
       
     end
     
   end
+  
+  
   
 end 
   
