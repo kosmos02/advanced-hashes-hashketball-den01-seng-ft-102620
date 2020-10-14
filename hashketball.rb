@@ -323,12 +323,12 @@ def big_shoe_rebounds
         
         largest_shoe = player_stats[:shoe]
         
-        iteration_index = player_stats
+        #iteration_index = player_stats
         
         
       end
       
-    game_hash[location_key][:players][]
+    #game_hash[location_key][:players][iteration_index][:rebounds]
       
     end
     
